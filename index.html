@@ -1,0 +1,53 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>NY Times Search</title>
+</head>
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">New York Times Search</h1>
+        </div>
+      </div>
+      <form>
+        <div class="form-group">
+          <label for="searchTerm">Search Term:</label>
+          <input type="search" class="form-control" id="searchTerm" aria-describedby="emailHelp">
+        </div>
+        <div class="form-group">
+            <label for="recordNumber">Number of Records to Retrieve:</label>
+            <select class="form-control" id="recordNumber">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div>
+        <div class="form-group">
+          <label for="startYear">Start Year (Optional):</label>
+          <input type="search" class="form-control" id="startYear" placeholder="YYYY-MM-DD">
+        </div>
+        <label for="endYear">End Year (Optional):</label>
+          <input type="search" class="form-control" id="endYear" placeholder="YYYY-MM-DD">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+      <script src="script.js"></script>
+</body>
+</html>
