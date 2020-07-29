@@ -8,7 +8,7 @@ $(".btn-primary").css({"background-color": "transparent", "color": "black", "bor
 var searchT = "";
 var searchNum = 1;
 var startYear = 2020;
-$("#btn-primary").on("click", function() {
+$(".btn-primary").on("click", function() {
     var searchValue = $("#search-term").val();
     searchT = searchValue;
     console.log(searchValue);
