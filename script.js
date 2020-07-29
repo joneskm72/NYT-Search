@@ -1,2 +1,3 @@
-$(".jumbotron").css({"background-color": "blue", "color": "white"});
-$(".container").css({"background-color": "blue", "text-align": "center","color": "white"});
+$(".jumbotron").css({"background-color": "navy", "color": "white"});
+$(".container").css({"background-color": "navy", "text-align": "center","color": "white"});
+$(".btn-primary").css({"background-color": "transparent", "color": "black", "border": "transparent"});
