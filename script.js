@@ -7,13 +7,15 @@ $(".btn-primary").css({"background-color": "transparent", "color": "black", "bor
 
 var searchT = "";
 var searchNum = 1;
-var searchyear = 2020;
-$("#search-button").on("click", function() {
-    var searchValue = $("#searchTerm").val();
+var startYear = 2020;
+$("#btn-primary").on("click", function() {
+    var searchValue = $("#search-term").val();
     searchT = searchValue;
     console.log(searchValue);
-    searchNum = $("#searchNum").val();
+    searchNum = $("#record-number").val();
     console.log(searchNum);
-    searchyear = $("#searchYear").val();
-    console.log(searchyear);
+    startYear = $("#start-year").val();
+    console.log(startYear);
 });
+
+
